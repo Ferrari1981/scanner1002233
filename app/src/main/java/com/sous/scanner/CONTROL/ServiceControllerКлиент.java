@@ -531,7 +531,7 @@ public class ServiceControllerКлиент extends IntentService {
                     final Object ТекущаяВерсияПрограммы = version;
                     Integer   ЛокальнаяВерсияПОСравнение = Integer.parseInt(ТекущаяВерсияПрограммы.toString());
                     valuesЗаписываемОшибки.put("whose_error",ЛокальнаяВерсияПОСравнение);
-                    new SubClassErrors(getApplicationContext()).МетодЗаписиОшибок(valuesЗаписываемОшибки);//
+                    new SubClassErrors(getApplicationContext()).МетодЗаписиОшибок(valuesЗаписываемОшибки);////
                 }
                 }
             });
